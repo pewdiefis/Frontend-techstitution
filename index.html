@@ -110,29 +110,58 @@
   </div>
 </div> <!-- Fundi i div container a-->
   
-  <div class="container">
-    <div class="row">
-      <form>
-        <div class="form-group">
-          <label id="MarginLeft">Afatet per implementimin e kontrates:</label>
-          <br>
-          <input type="Date" name="DataEImplimentimitPrej" id="MarginLeft" class="widthText">
-          <input type="Date" name="DataEImplimentimitDeri" class="widthText" id="distance">
-        </div>
-      </form>
-    </div>
-<div class="row">
-  <form>
+<div class="container"> <!-- redo -->
+ <!--   <div class="row">
+      <div class="container-md-1 offset-md-3">
+         <form>
+           <div class="form-group">
+             <label class="Margin">Afatet per implementimin e kontrates</label>
+             <br>
+             <input class="Margin widthText" type="Date" name="Data Prej">
+         </form>
+      </div>
+   </div> 
+ </div>-->
+ <div class="row">
+   <div class="container-md-1 offset-md-3">
+    <form>
+      <div class="form-group Margin">
+          <label>Afatet per implementimin e kontraktes:</label>
+     <br>
+     <input class="widthText" type="Date" name="DataPrej">
+      </div>
+    </form>
+   </div>
+   <div class="offset-md-1">
+    <form>
+      <div class="form-group">
+        <input class="widthText" id="moveL" type="Date" name="DateDeri">
+      </div>
+    </form>
+   </div>
+ </div>
+
+<div class="row"> <!-- Redo -->
+  <!--<form>
     <div class="form-group">
       <label id="MarginLeft">Data e permbylljes se  kontraktes(data e pranimit <br>te perkoshem/preliminar)</label>
       <br>
       <input type="Date" name="DataEPermbylljes" id="MarginLeft" class="Aktiviteti">
     </div>
   </form>
+</div> -->
+<div class="container-md-1 offset-md-3">
+  <form>
+    <div class="form-group Margin">
+      <label>Data e permbylljes se kontraktes(data e pranimit te perkoshem/preliminar)</label>
+      <br>
+      <input class="Aktiviteti" type="Date" name="DataEpermbylljes">
+    </div>
+  </form>
 </div>
   </div> <!--fundi i div contaner -->
 
-<div class="container">
+<div class="container xontainer">
   <div class="container-md-1 offset-md-3">
     <label id="sizeup"><b>Qmimi dhe te dhenat tjerat:</b></label>
   </div>
@@ -153,7 +182,7 @@
           <div class="form-group">
             <label>Qmimi total i paguar per<br> kontraten</label>
             <br>
-            <input type="text" name="Totali" class="widthText Left1" placeholder="Qmimi Total">
+            <input type="text" id="widthText" name="Totali" class="widthText Left1" placeholder="Qmimi Total">
           </div>
         </form>
       </div>
