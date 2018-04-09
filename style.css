@@ -10,9 +10,9 @@ h1
 {
 	margin-left: -6px
 }
-#Aktiviteti 
+.Aktiviteti 
 {
-	width: 547px;
+	width: 545px;
 }
 #margintop
 {
@@ -25,8 +25,47 @@ h1
 	width: 228px;
 }
 
-#widthText 
+.widthText 
 {
 	width: 227px;
+}
+.Background 
+{
+	background-color: white;
+}
+#MarginLeft
+{
+	margin-left:  255px;
+}
+#distance
+{
+	margin-left: 88px;
+}
+
+#moveL1 
+{
+	margin-left: -9px;
+	width: 547px;
+}
+#sizeup
+{
+	font-size: 18px;
+	margin-left: -9px;
+}
+.Left1 
+{
+	margin-left: -3px;
+}
+.button
+{
+	margin-top: 10px;
+	margin-left: -3px;
+	width: 227px;
+}
+.butn
+{
+	margin-top: 10px;
+	width: 232px;
+	margin-left: -2px;
 }
 

@@ -13,7 +13,7 @@
 
 
   <body>
-
+<div class="container Background">
     <div class="container">
       
        <div class="row">
@@ -37,17 +37,17 @@
               <div class="form-group">
               <label>Nr rendor i prokurimit:</label>
               <br>
-               <input id="widthText" type="text" name="NrProkurorimit" placeholder="Nr. rendor i prokurimit">
+               <input class="widthText" type="text" name="NrProkurorimit" placeholder="Nr. rendor i prokurimit">
             </div>
           </form>
         </div>
 
   <div class="container-md-2 offset-md-1">
     <form>
-      <div class="form-group">
+      <div class="form-group"> <!-- Fix the  width to the left!!!!!!!!!!  -->
         <label>Lloji i prokurorimit</label> 
         <br>
-        <input id="widthText" type="text" name="LlojiProkurorimit>" placeholder="Lloji i prokurorimit">
+        <input class="widthText" type="text" name="LlojiProkurorimit>" placeholder="Lloji i prokurorimit">
       </div>
     </form>
   </div>
@@ -58,7 +58,7 @@
     <div class="container-md-4    offset-md-3">
        <label class="Margin">Aktiviteti i prokurorimit</label>
        <br>
-       <input id="Aktiviteti" class="Margin" type="text" name="AktivitetiProkurorimit" placeholder="Aktiviteti i prokurimit">
+       <input class="Aktiviteti" id="moveL1" class="Margin" type="text" name="AktivitetiProkurorimit" placeholder="Aktiviteti i prokurimit">
     </div>
   </div>
 </div> <!--  fundii div container-->
@@ -102,14 +102,87 @@
         <div class="form-group Margin">
           <label>Data e nenshkrimit te kontrates:</label>
           <br>
-          <input type="Date" name="DataENesShkrimit" id="Aktiviteti" >
+          <input type="Date" name="DataENesShkrimit" class="Aktiviteti" >
         </div>
       </form>
     </div>
    
   </div>
 </div> <!-- Fundi i div container a-->
+  
+  <div class="container">
+    <div class="row">
+      <form>
+        <div class="form-group">
+          <label id="MarginLeft">Afatet per implementimin e kontrates:</label>
+          <br>
+          <input type="Date" name="DataEImplimentimitPrej" id="MarginLeft" class="widthText">
+          <input type="Date" name="DataEImplimentimitDeri" class="widthText" id="distance">
+        </div>
+      </form>
+    </div>
+<div class="row">
+  <form>
+    <div class="form-group">
+      <label id="MarginLeft">Data e permbylljes se  kontraktes(data e pranimit <br>te perkoshem/preliminar)</label>
+      <br>
+      <input type="Date" name="DataEPermbylljes" id="MarginLeft" class="Aktiviteti">
+    </div>
+  </form>
+</div>
+  </div> <!--fundi i div contaner -->
 
+<div class="container">
+  <div class="container-md-1 offset-md-3">
+    <label id="sizeup"><b>Qmimi dhe te dhenat tjerat:</b></label>
+  </div>
+
+    <div class="row">
+      <div class="container-md-2 offset-md-3">
+        <form>
+          <div class="form-group Left1">
+              <label>Qmimi i kontrates(duke perfshir<br>te gjitha taksat)</label>
+              <br>
+              <input class="widthText" type="text" name="QmimiIKontratesMETaks" placeholder="Qmimi i Kontrates">
+          </div>
+        </form>
+      </div>
+
+      <div class="container-md-6 offset-md-1">
+        <form>
+          <div class="form-group">
+            <label>Qmimi total i paguar per<br> kontraten</label>
+            <br>
+            <input type="text" name="Totali" class="widthText Left1" placeholder="Qmimi Total">
+          </div>
+        </form>
+      </div>
+    </div><!--funid i row -->
+
+    <div class="row">
+      <div class="container-md-1 offset-md-3">
+        <form>
+          <div class="form- Left1">
+            <label>Emrit i te cilit i eshte dhene kontrata:</label>
+            <br>
+            <input type="text" name="EmriIPronarit" placeholder="Emri i Kompanis" class="Aktiviteti">
+          </div>
+        </form>
+      </div>
+    </div><!--Fudni i row -->
+
+    <div class="row">
+      <div class="container-md-1 offset-md-3">
+        <button class="btn btn-primary button" type="Submit">Dergo</button>
+      </div>
+      <div class="container-md-5 offset-md-1">
+        <button class="btn butn">Fshij</button>
+      </div>
+    </div>
+
+</div> <!--Fundi i div container -->
+
+</div>
   </body>
 
 </html>
